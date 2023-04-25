@@ -1,6 +1,6 @@
-const routes = require('express').Router();
-const myController = require('../controllers');
+const router = require('express').Router();
+//Week 1 assignment: const myController = require('../controllers');
 
-routes.use('/contacts', require('./contacts'))
+router.use('/contacts', require('./contacts'))
 
-module.exports = routes;
+module.exports = router;
