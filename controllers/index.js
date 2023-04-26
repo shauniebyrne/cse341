@@ -1,9 +1,9 @@
 const firstPerson = (req, res, next) => {
-    res.json('Shauntal Byrne');
+    res.send('Shauntal Byrne');
 };
 
 const anotherPerson = (req, res, next) => {
-    res.json('Jared Byrne');
+    res.send('Jared Byrne');
 };
 
 module.exports = {firstPerson, anotherPerson};

@@ -1,44 +1,44 @@
-{
-    "contact": {
+[
+    {
         "firstName": "Shauntal",
         "lastName": "Byrne",
         "email": "shauntalbyrne27@gmail.com",
         "favColor": "Blue",
         "birthday": "04/27/1984"
     },
-    "contact2": {
+    {
         "firstName": "Jared",
         "lastName": "Byrne",
         "email": "jared.byrne@hotmail.com",
         "favColor": "Red",
         "birthday": "01/27/1981"
     },
-    "contact3": {
+    {
         "firstName": "Makayla",
         "lastName": "Byrne",
         "email": "hothorse7@hotmail.com",
         "favColor": "Blue",
         "birthday": "04/15/2005"
     },
-    "contact4": {
+    {
         "firstName": "Terence",
         "lastName": "Byrne",
         "email": "terence.byrne@hotmail.com",
         "favColor": "Red",
         "birthday": "11/02/2006"
     },
-    "contact5": {
+    {
         "firstName": "Jayson",
         "lastName": "Byrne",
         "email": "jayson.byrne@hotmail.com",
         "favColor": "Red",
         "birthday": "05/10/2009"
     },
-    "contact6": {
+    {
         "firstName": "Logan",
         "lastName": "Byrne",
         "email": "logan.byrne@hotmail.com",
         "favColor": "Red",
         "birthday": "09/05/2012"
     }
-}
+]
