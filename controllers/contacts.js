@@ -4,7 +4,7 @@ const ObjectId = require('mongodb').ObjectId;
 const getAllData = async (req, res, next) => {
     const result = await mongodb
         .getDb()
-        .db()
+        .db('cse341')
         .collection('contacts')
         .find();
     result.toArray().then((lists) => {
@@ -17,7 +17,7 @@ const getSingleData = async (req, res, next) => {
     const UserId = new ObjectId(req.params.id);
     const result = await mongodb
         .getDb()
-        .db()
+        .db('cse341')
         .collection('contacts')
         .find({ _id: UserId});
     result.toArray().then((lists) => {
