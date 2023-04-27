@@ -66,9 +66,9 @@ const updateContact = async (req, res, next) => {
         .db('cse341')
         .collection('contacts')
         .replaceOne({ _id: UserId}, updatedInfo);
-    console.log(resultBack.nModified + 'document(s) were updated');
-    if(resultBack.nModified > 0) {
-        res.status(204).send();
+    console.log(resultBack.modifiedCount + 'document(s) were updated');
+    if(resultBack.modifiedCount > 0) {
+        res.status(204).send(resultBack.modifiedCount + "document(s) were updated.");
     } else {
         res.status(500).json(resultBack.error || 'Sorry. New information could not be updated.');
     }    
@@ -83,8 +83,8 @@ const deleteContact = async (req, res, next) => {
         .collection('contacts')
         .deleteOne({ _id: UserId}, true);
     console.log(resultBack.deletedCount + 'document(s) were deleted.');
-    if(resultBack.deleteCount > 0) {
-        res.status(200).send();
+    if(resultBack.acknowledged) {
+        res.status(200).send(resultBack.deletedCount + "document(s) were deleted.");
     } else {
         res.status(500).json(resultBack.error || 'Sorry. Information was not deleted.');
     }

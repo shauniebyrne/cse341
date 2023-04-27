@@ -45,7 +45,7 @@ Content-Type: application/json
 }
 
 ### Delete contact info (Marco Polo)
-DELETE http://localhost:4518/contacts/644a271b698c9baf9a3531df HTTP/1.1
+DELETE http://localhost:4518/contacts/644a2e393b383525d66d96e7 HTTP/1.1
 
 //Render
 ###
