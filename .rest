@@ -3,22 +3,22 @@
 GET http://localhost:4518/contacts HTTP/1.1
 
 ### Get single contact by Id (Shauntal)
-GET http://localhost:4518/contacts/644898efafc049df8807ba33 HTTP/1.1
+GET http://localhost:4518/contacts/644d74102fb6c659f91a4cf9 HTTP/1.1
 
 ### (Jared)
-GET http://localhost:4518/contacts/644898efafc049df8807ba34 HTTP/1.1
+GET http://localhost:4518/contacts/644d74102fb6c659f91a4cfa HTTP/1.1
 
 ### (Makayla)
-GET http://localhost:4518/contacts/644898efafc049df8807ba35 HTTP/1.1
+GET http://localhost:4518/contacts/644d74102fb6c659f91a4cfb HTTP/1.1
 
 ### (Terence)
-GET http://localhost:4518/contacts/644898efafc049df8807ba36 HTTP/1.1
+GET http://localhost:4518/contacts/644d74102fb6c659f91a4cfc HTTP/1.1
 
 ### (Jayson)
-GET http://localhost:4518/contacts/644898efafc049df8807ba37 HTTP/1.1
+GET http://localhost:4518/contacts/644d74102fb6c659f91a4cfd HTTP/1.1
 
 ### (Logan)
-GET http://localhost:4518/contacts/644898efafc049df8807ba38 HTTP/1.1
+GET http://localhost:4518/contacts/644d74102fb6c659f91a4cfe HTTP/1.1
 
 ### Create new contact
 POST http://localhost:4518/contacts HTTP/1.1
@@ -28,19 +28,19 @@ Content-Type: application/json
     "firstName": "Marco",
     "lastName": "Polo",
     "email": "marco.polo@gmail.com",
-    "favColor": "Green",
+    "favoriteColor": "Green",
     "birthday": "06/25/1965"
 }
 
 ### Update contact info (Jayson Id)
-PUT http://localhost:4518/contacts/644898efafc049df8807ba37 HTTP/1.1
+PUT http://localhost:4518/contacts/644d74102fb6c659f91a4cfd HTTP/1.1
 Content-Type: application/json
 
 {
     "firstName": "Jayson",
     "lastName": "Byrne",
     "email": "jayson.byrne@tempeschools.com",
-    "favColor": "Red",
+    "favoriteColor": "Red",
     "birthday": "05/10/2009"
 }
 
@@ -52,22 +52,22 @@ DELETE http://localhost:4518/contacts/644a34593b383525d66d96e8 HTTP/1.1
 GET https://cse341-ooyb.onrender.com/contacts HTTP/1.1
 
 ### Get contact based off ID (Shauntal)
-GET https://cse341-ooyb.onrender.com/contacts/644898efafc049df8807ba33 HTTP/1.1
+GET https://cse341-ooyb.onrender.com/contacts/644d74102fb6c659f91a4cf9 HTTP/1.1
 
 ### (Jared)
-GET https://cse341-ooyb.onrender.com/contacts/644898efafc049df8807ba34 HTTP/1.1
+GET https://cse341-ooyb.onrender.com/contacts/644d74102fb6c659f91a4cfa HTTP/1.1
 
 ### (Makayla)
-GET https://cse341-ooyb.onrender.com/contacts/644898efafc049df8807ba35 HTTP/1.1
+GET https://cse341-ooyb.onrender.com/contacts/644d74102fb6c659f91a4cfb HTTP/1.1
 
 ### (Terence)
-GET https://cse341-ooyb.onrender.com/contacts/644898efafc049df8807ba36 HTTP/1.1
+GET https://cse341-ooyb.onrender.com/contacts/644d74102fb6c659f91a4cfc HTTP/1.1
 
 ### (Jayson)
-GET https://cse341-ooyb.onrender.com/contacts/644898efafc049df8807ba37 HTTP/1.1
+GET https://cse341-ooyb.onrender.com/contacts/644d74102fb6c659f91a4cfd HTTP/1.1
 
 ### (Logan)
-GET https://cse341-ooyb.onrender.com/contacts/644898efafc049df8807ba38 HTTP/1.1
+GET https://cse341-ooyb.onrender.com/contacts/644d74102fb6c659f91a4cfe HTTP/1.1
 
 ### Create new contact
 POST https://cse341-ooyb.onrender.com/contacts HTTP/1.1
@@ -77,19 +77,19 @@ Content-Type: application/json
     "firstName": "Matthew",
     "lastName": "Phillips",
     "email": "matthew.phillips@gmail.com",
-    "favColor": "Silver",
+    "favoriteColor": "Silver",
     "birthday": "07/19/2008"
 }
 
 ### Update contact info (Terence)
-PUT https://cse341-ooyb.onrender.com/contacts/644898efafc049df8807ba36 HTTP/1.1
+PUT https://cse341-ooyb.onrender.com/contacts/644d74102fb6c659f91a4cfc HTTP/1.1
 Content-Type: application/json
 
 {
     "firstName": "Terry",
     "lastName": "Byrne",
     "email": "terence.byrne@tempeschools.org",
-    "favColor": "Red",
+    "favoriteColor": "Red",
     "birthday": "11/02/2006"
 }
 

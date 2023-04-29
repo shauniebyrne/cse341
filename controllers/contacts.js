@@ -44,7 +44,7 @@ const createContact = async (req, res, next) => {
             firstName: req.body.firstName,
             lastName: req.body.lastName,
             email: req.body.email,
-            favColor: req.body.favColor,
+            favoriteColor: req.body.favoriteColor,
             birthday: req.body.birthday
         };
         //Connect to database
@@ -71,7 +71,7 @@ const updateContact = async (req, res, next) => {
             firstName: req.body.firstName,
             lastName: req.body.lastName,
             email: req.body.email,
-            favColor: req.body.favColor,
+            favoriteColor: req.body.favoriteColor,
             birthday: req.body.birthday
         };
         const resultBack = await mongodb
